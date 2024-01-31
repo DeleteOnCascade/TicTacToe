@@ -21,8 +21,8 @@ function App() {
         {
           square: { row: rowIndex, col: colIndex },
           player: currentPlayer,
-          ...prevTurns,
         },
+        ...prevTurns,
       ];
       return updatedTurns;
     });
